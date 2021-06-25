@@ -1,0 +1,13 @@
+package com.example.data;
+
+public class Student {
+	int rollno;
+	String name;
+	public int age;
+
+	Student(int rollno, String name, int age) {
+		this.rollno = rollno;
+		this.name = name;
+		this.age = age;
+	}
+}
